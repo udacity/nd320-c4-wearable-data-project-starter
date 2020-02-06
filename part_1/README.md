@@ -40,13 +40,16 @@ The starter code includes a few helpful functions.
 #### Starter
 These are the files that are given:
 - `README.md`
+- `datasets`
 - `pulse_rate_starter.ipynb`
 
 #### Completed
 Once you have completed this portion these should be the files in this repo.
 - `README.md`
+- `datasets` - this folder should be removed when submitting for reviewers. 
 - `pulse_rate.ipynb`<sup>*</sup> - complete pulse rate algorithm and write-up
 - `unit_test.ipynb`<sup>*</sup> - includes the complete pulse rate algorithm 
-- `passed.png`<sup>*</sup> - rendered in the `unit_test.ipynb` showing that the algorithm passed and by what error metric. 
+- `passed.png`<sup>*</sup> - rendered in the `unit_test.ipynb` showing that the algorithm passed and by what error metric.
+
 
 <sup>*</sup> These files can be named slightly different but must fufill the description given and be clear to the reviewer what that file includes.
