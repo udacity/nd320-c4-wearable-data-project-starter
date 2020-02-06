@@ -1,4 +1,4 @@
-# Motion-Compensated Pulse Rate Estimation Project
+# Activity Aware Pulse Rate Algorithm Project
 
 This project has 2 main parts:
 
