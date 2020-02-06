@@ -21,10 +21,12 @@ The data from this project comes from the [Cardiac Arrythmia Suppression Trial (
 These are the files that are given:
 - `README.md`
 - `clinical_app_starter.ipynb`
+- `heart-rate-age-reference-chart.jpg`
 
 #### Completed
 Once you have completed this portion these should be the files in this repo.
 - `README.md`
-- `clinical_app.ipynb`<sup>*</sup> - completed code portions and clinical conclusion. 
+- `clinical_app.ipynb`<sup>*</sup> - completed code portions and clinical conclusion.
+- `heart-rate-age-reference-chart.jpg`
 
 <sup>*</sup> This file can be named slightly different but must fufill the description given and be clear to the reviewer what that file includes.
