@@ -22,7 +22,7 @@ Note that the unit test will call `AggregateErrorMetric` on the output of your `
   5. One option for a confidence algorithm is to answer the question, "How much energy in the frequency spectrum is concentrated near the pulse rate estimate?" You can answer this by summing frequency spectrum near the pulse rate estimate and dividing it by the sum of the entire spectrum.
   
 ### Dataset
-You will be using the Troika[1] dataset to build your algorithm. Find the dataset under datasets/troika/training_data. The README in that folder will tell you how to interpret the data. The starter code contains a function to help load these files.
+You will be using the Troika<sup>1</sup> dataset to build your algorithm. Find the dataset under datasets/troika/training_data. The README in that folder will tell you how to interpret the data. The starter code contains a function to help load these files.
 
 1. **Troika** - Zhilin Zhang, Zhouyue Pi, Benyuan Liu, ‘‘TROIKA: A General Framework for Heart Rate Monitoring Using Wrist-Type Photoplethysmographic Signals During Intensive Physical Exercise,’’IEEE Trans. on Biomedical Engineering, vol. 62, no. 2, pp. 522-531, February 2015. Link
 
@@ -34,3 +34,19 @@ The starter code includes a few helpful functions.
 - The bulk of the code will be in the `RunPulseRateAlgorithm` function. You can and should break the code out into multiple functions. 
 - `RunPulseRateAlgorithm` will take in two filenames and return a tuple of two numpy arrays--per-estimate pulse rate error and confidence values. Remember to write docstrings for all functions that you write (including `RunPulseRateAlgorithm`)
 - Finally, run the `Evaluate` function to call your algorithm on the Troika dataset and compute an aggregate error metric. While building the algorithm you may want to inspect the algorithm errors on more detail.
+
+### Folder Contents
+
+#### Starter
+These are the files that are given:
+- `README.md`
+- `pulse_rate_starter.ipynb`
+
+#### Completed
+Once you have completed this portion these should be the files in this repo.
+- `README.md`
+- `pulse_rate.ipynb`<sup>*</sup> - complete pulse rate algorithm and write-up
+- `unit_test.ipynb`<sup>*</sup> - includes the complete pulse rate algorithm 
+- `passed.png`<sup>*</sup> - rendered in the `unit_test.ipynb` showing that the algorithm passed and by what error metric. 
+
+<sup>*</sup> These files can be named slightly different but must fufill the description given and be clear to the reviewer what that file includes.
