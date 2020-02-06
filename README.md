@@ -1,4 +1,13 @@
-# Final Project: Motion-Compensated Pulse Rate Estimation
+# Motion-Compensated Pulse Rate Estimation Project
+
+This project has 2 main parts:
+
+- [Part 1](#part-1-pulse-rate-algorithm-overview) - Develop a **Pulse Rate Algorithm** on the given training data. Then **Test Your Algorithm** and see that it has met the success criteria.
+- [Part 2](#part-2-clinical-application-overview) - Apply the Pulse Rate Algorithm on a **Clinical Application** and compute more clinically meaningful features and discover healthcare trends.
+
+Let's start with some background.
+
+-----
 
 ## Introduction
 A core feature that many users expect from their wearable devices is pulse rate estimation. Continuous pulse rate estimation can be informative for many aspects of a wearer's health. Pulse rate during exercise can be a measure of workout intensity and resting heart rate is sometimes used as an overall measure of cardiovascular fitness. In this project you will create a pulse rate estimation algorithm for a wrist-wearable device. Use the information in the [section below](#physiological-mechanics-of-pulse-rate-estimation) to inform the design of your algorithm. Make sure that your algorithm conforms to the given [specifications](#algorithm-specifications).
@@ -72,7 +81,7 @@ Specifically, you will use 24 hours of heart rate data from 1500 samples to try 
 
 ![heart-rate-age-ref-chart](heart-rate-age-reference-chart.jpg)
 
-Follow the steps in the notebook to reproduce this result!
+Follow the steps in the `clinical_app_starter.ipynb` to reproduce this result!
 
 ### Dataset (CAST)
 
