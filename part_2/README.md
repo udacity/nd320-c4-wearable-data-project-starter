@@ -20,12 +20,14 @@ The data from this project comes from the [Cardiac Arrythmia Suppression Trial (
 #### Starter
 These are the files that are given:
 - `README.md`
+- `datasets`
 - `clinical_app_starter.ipynb`
 - `heart-rate-age-reference-chart.jpg`
 
 #### Completed
 Once you have completed this portion these should be the files in this repo.
 - `README.md`
+- `datasets` - this folder should be removed when submitting for reviewers.
 - `clinical_app.ipynb`<sup>*</sup> - completed code portions and clinical conclusion.
 - `heart-rate-age-reference-chart.jpg`
 
