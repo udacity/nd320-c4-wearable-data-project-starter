@@ -28,8 +28,8 @@ You will be using the Troika<sup>1</sup> dataset to build your algorithm. Find t
 
 ### Getting Started
 The starter code includes a few helpful functions. 
-- `TroikaDataset`, `AggregateErrorMetric`, and `Evaluate` do not need to be modified.  
-- Use `TroikaDataset` to retreive a list of .mat files containing reference and signal data. 
+- `LoadTroikaDataset`, `AggregateErrorMetric`, and `Evaluate` do not need to be modified.  
+- Use `LoadTroikaDataset` to retreive a list of .mat files containing reference and signal data. 
 - Use `scipy.io.loadmat` to the .mat file into a python object. 
 - The bulk of the code will be in the `RunPulseRateAlgorithm` function. You can and should break the code out into multiple functions. 
 - `RunPulseRateAlgorithm` will take in two filenames and return a tuple of two numpy arrays--per-estimate pulse rate error and confidence values. Remember to write docstrings for all functions that you write (including `RunPulseRateAlgorithm`)
